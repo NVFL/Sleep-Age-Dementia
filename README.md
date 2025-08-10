@@ -6,19 +6,19 @@ This is the repository associated with the paper "Real-world deployment of remot
 
 Here, we provide a description of the files made available in this repository.
 
-## The Models
+### The Models
 
-To promote the sharing of resources, we provide the trained model described in the paper, optimised for the PyTorch framework (3BTRON.pt).
+To promote the sharing of resources, we provide the pre-trained models described in the paper. 
 
-## Scripts
+### Scripts
 
-This folder contains all associated code (including scripts for data pre-processing, training and evaluation, stratification and for generating and visualising GradCAM heatmaps).
+This folder contains all associated code (including scripts for data pre-processing, training and evaluation, stratification).
 
-## Data
+### Data
 
-The data presented in this study can be found on Zenodo at: https://doi.org/10.5281/zenodo.14845497.
+The data presented in this study came from three separate sources. The Withings dataset was provided under a data-sharing agreement for research with Imperial College London and cannot be shared. The Minder dataset is available from the corresponding authors upon reasonable request. The Resilient dataset has been made publicly available and can be found on Zenodo at: https://zenodo.org/records/16755408.
 
-## Experiments
+### Experiments
 
 Code for experiments and figures presented in this study will be made available by the corresponding author upon reasonable request.
 
@@ -28,15 +28,21 @@ For this, you will need to have conda installed (find more information here: htt
 
 Create the environment from the environment.yml file:
 
+```python
 conda env create -f environment.yml
+```
 
 Activate the environment:
 
+```python
 conda activate sleep-age
+```
 
 Verify that the environment was installed correctly:
 
+```python
 conda env list
+```
 
 ## Running the Model
 
