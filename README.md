@@ -12,7 +12,7 @@ To promote the sharing of resources, we provide the pre-trained models described
 
 ### Scripts
 
-This folder contains all associated code (including scripts for data pre-processing, training and evaluation, stratification).
+This folder contains all associated code (including scripts for data pre-processing and stratification).
 
 ### Data
 
