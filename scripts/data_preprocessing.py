@@ -105,7 +105,28 @@ def time_to_angles(
     fraction = seconds / total_seconds_in_day
     return fraction * 360
 
-def local_time_to_angle(row, datetime_col, timezone_col):
+def local_time_to_angle(
+    row,
+    datetime_col,
+    timezone_col):
+    """
+
+    Arguments
+    ---------
+    row:
+        A single row of the DataFrame.
+
+    datetime_col: int:
+        The time of day to convert to seconds to be converted to angles in degrees.
+
+    timezone_col:
+        The timezone (country) by which to convert UTC time to local time. 
+
+    Returns
+    -------
+    out: float:
+        Converts the local time to angle in degrees.
+    """
     local_tz = pytz.timezone(row[timezone_col])
     local_time = row[datetime_col].tz_convert(local_tz).time()
     return time_to_angles(local_time)
@@ -1378,7 +1399,29 @@ def data_to_arrays(
     return X_data, dates_data, id_data, gender_data, age_data, raw_age_data
 
 
-def calculate_statistics(data):
+def calculate_statistics(
+    data):
+     """
+    Converts 2D NumPy arrays with n_features, n_values into 1D vectors for each sample in
+    the order as shown below:
+
+    [mean_feat_1, mean_feat_2, ..., mean_feat_F,
+    median_feat_1, median_feat_2, ..., median_feat_F,
+    min_feat_1, min_feat_2, ..., min_feat_F,
+    max_feat_1, max_feat_2, ..., max_feat_F,
+    std_feat_1, std_feat_2, ..., std_feat_F,
+    iqr_feat_1, iqr_feat_2, ..., iqr_feat_F]
+
+    where F is the number of features.
+
+    Each vector is then appended to a 2D NumPy array as a single row.
+
+    Returns
+    -------
+    out: pd.DataFrame:
+        A 2D NumPy array with shape (N, 6 x F) where N is the number of data samples and
+        F is the number of features.
+    """
     # Calculate statistics for each feature across the n timesteps
     results = []
 
