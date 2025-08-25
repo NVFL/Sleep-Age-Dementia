@@ -1399,9 +1399,8 @@ def data_to_arrays(
     return X_data, dates_data, id_data, gender_data, age_data, raw_age_data
 
 
-def calculate_statistics(
-    data):
-     """
+def calculate_statistics(data):
+    """
     Converts 2D NumPy arrays with n_features, n_values into 1D vectors for each sample in
     the order as shown below:
 
