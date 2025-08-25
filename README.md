@@ -8,7 +8,7 @@ Here, we provide a description of the files made available in this repository.
 
 ### The Models
 
-To promote the sharing of resources, we provide the pre-trained models described in the paper. 
+To promote the sharing of resources, we provide the pre-trained age estimation model ('age_estimator.json') and final risk prediction model ('risk_predictor.pkl') described in the paper. 
 
 ### Scripts
 
