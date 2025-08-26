@@ -46,9 +46,11 @@ conda env list
 
 ## Running the Model
 
-To generate outputs on your own data, you can run the python scripts 'age_estimation.ipynb' and 'risk_prediction.ipynb'.
+To generate outputs on your own data, you can run the notebooks 'age_estimation.ipynb' and 'risk_prediction.ipynb'. These notebooks can be found in their respectively named folders.
 
+The 'age_estimation.ipnyb' notebook allows you to load our pre-trained 'age_estimation.json' model, with which you can then estimate age on your own dataset. You can then calculate SAI for each of your inputs using the pre-calculated age-group weighted mean estimation errors in 'weighted_means_age.csv'.
 
+The 'risk_prediction.ipynb' notebook allows you to to generate risk scores on unlabelled data using our pre-trained 'risk_prediction.pkl' model, to which you can then assign stratified group labels. 
 
 ## Contact
 
