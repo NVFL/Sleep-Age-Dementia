@@ -46,28 +46,9 @@ conda env list
 
 ## Running the Model
 
-To generate outputs on your own data, you will first need to load the model before setting the model to evaluation mode:
+To generate outputs on your own data, you can run the python scripts 'age_estimation.ipynb' and 'risk_prediction.ipynb'.
 
-from torchvision import models
-device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
-resnet50 = models.resnet50(weights='DEFAULT')
-model = mixedresnetnetwork(model=resnet50, embeddings=resnet50.fc.in_features)
 
-SAVE_END_MODEL=True
-
-if SAVE_END_MODEL:
-    model.load_state_dict(torch.load('./3BTRON.pt'))
-
-model = model.to(device)
-model.eval()
-
-Alternatively, you can run the python scripts 'generate_outputs_labelled.py' for labelled data or 'generate_outputs_unlabelled.py' for unlabelled data.
-
-To fine-tune the model on your own data, you will need to set the model to training mode using:
-
-model.train()
-
-To adapt the model to your own data, you will need to retrain the model from scratch.
 
 ## Contact
 
