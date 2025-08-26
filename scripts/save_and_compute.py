@@ -161,11 +161,11 @@ def interpret_prediction(label, adjusted_prob):
         if adjusted_prob >= 0:
             return "Highly Likely"
         else:
-            return "Moderately Likely"
+            return "Somewhat Likely"
     elif label == 'Amber':
         if adjusted_prob >= 0:
-            return "Moderately Likely"
-        else:
             return "Somewhat Likely"
+        else:
+            return "Not Likely"
     else:
         return "Not Likely"
