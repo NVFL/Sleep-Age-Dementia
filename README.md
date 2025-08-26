@@ -54,4 +54,4 @@ The 'risk_prediction.ipynb' notebook allows you to to generate risk scores on yo
 
 ## Contact
 
-This code in maintained by Nan Fletcher-Lloyd.
+This code is maintained by Nan Fletcher-Lloyd.
