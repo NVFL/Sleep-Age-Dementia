@@ -16,7 +16,7 @@ This folder contains all associated code (including scripts for data pre-process
 
 ### Data
 
-The data presented in this study came from three separate sources. The Withings dataset was provided under a data-sharing agreement for research with Imperial College London and cannot be shared. The Minder dataset is available from the corresponding authors upon reasonable request. The Resilient dataset has been made publicly available and can be found on Zenodo at: https://zenodo.org/records/16755408.
+The data presented in this study came from three separate sources. The Withings dataset was provided under a data-sharing agreement for research with Imperial College London and is not publicly available. A subset of the Minder dataset has been made publicly available and can be found on Zenodo at: https://zenodo.org/records/7622128. A full description of this data subset is published in Nature Scientific Data and can be found here: https://doi.org/10.1038/s41597-023-02519-y. The extended Minder dataset is available from the corresponding authors upon reasonable request. The Resilient dataset has been made publicly available and can be found on Zenodo at: https://zenodo.org/records/16755408.
 
 ### Experiments
 
