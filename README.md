@@ -60,7 +60,7 @@ If you use this code in any way, please refer to it by citing my paper "[Real-wo
 
 - Bibtex:
 ```
-@techreport{RefWorks:RefID:1158-fletcher-lloyd2025realworld,
+@techreport{Fletcher-Lloyd,
 	author={Nan Fletcher-Lloyd and Nathalia Céspedes Gómez and Alexander Capstick and Antigone Fogel and Marirena Bafaloukou and Mahan Heydari and Alexandra Cairns and Chloe Walsh and Jessica True and Behnam Shariati and Ramin Nilforooshan and Payam Barnaghi},
 	year={2025},
 	month={Sep 3},
