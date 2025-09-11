@@ -1,5 +1,7 @@
 # Real-world deployment of remote sleep monitoring technologies reveals distinct patterns associated with cognitive decline
 
+[![DOI](https://zenodo.org/badge/1044624465.svg)](https://doi.org/10.5281/zenodo.17101812)
+
 This is the repository associated with the paper "Real-world deployment of remote sleep monitoring technologies reveals distinct patterns associated with cognitive decline".
 
 ## Files
