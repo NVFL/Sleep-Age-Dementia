@@ -54,6 +54,24 @@ The 'age_estimation.ipnyb' notebook allows you to load our pre-trained 'age_esti
 
 The 'risk_prediction.ipynb' notebook allows you to to generate risk scores on your unlabelled SAI data using our pre-trained 'risk_predictor.pkl' model, to which you can then assign stratified group labels. Finally, you can then calculate adjusted probability scores for each of your inputs using the pre-calculated age-group weighted mean risk scores in 'weighted_means_dementia.csv', to which you can then assign updated stratification group labels. 
 
+## Citation
+
+If you use this code in any way, please refer to it by citing my paper "[Real-world deployment of remote sleep monitoring technologies reveals distinct patterns associated with cognitive decline](https://www.medrxiv.org/content/10.1101/2025.08.29.25334735v2)":
+
+- Bibtex:
+```
+@techreport{RefWorks:RefID:1158-fletcher-lloyd2025realworld,
+	author={Nan Fletcher-Lloyd and Nathalia Céspedes Gómez and Alexander Capstick and Antigone Fogel and Marirena Bafaloukou and Mahan Heydari and Alexandra Cairns and Chloe Walsh and Jessica True and Behnam Shariati and Ramin Nilforooshan and Payam Barnaghi},
+	year={2025},
+	month={Sep 3},
+	title={Real-world deployment of remote sleep monitoring technologies reveals distinct patterns associated with cognitive decline},
+	institution={Cold Spring Harbor Laboratory Press},
+	url={https://www.medrxiv.org/content/10.1101/2025.08.29.25334735},
+	doi={10.1101/2025.08.29.25334735}
+}
+
+```
+
 ## Contact
 
 This code is maintained by Nan Fletcher-Lloyd.
