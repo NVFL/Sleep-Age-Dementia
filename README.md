@@ -2,7 +2,7 @@
 
 [![DOI](https://zenodo.org/badge/1044624465.svg)](https://doi.org/10.5281/zenodo.17101812)
 
-This is the repository associated with the paper "Real-world deployment of remote sleep monitoring technologies reveals distinct patterns associated with cognitive decline".
+This is the repository associated with the paper "[Real-world deployment of remote sleep monitoring technologies reveals distinct patterns associated with cognitive decline](https://www.nature.com/articles/s41746-026-02964-0)".
 
 ## Files
 
@@ -56,20 +56,21 @@ The 'risk_prediction.ipynb' notebook allows you to to generate risk scores on yo
 
 ## Citation
 
-If you use this code in any way, please refer to it by citing my paper "[Real-world deployment of remote sleep monitoring technologies reveals distinct patterns associated with cognitive decline](https://www.medrxiv.org/content/10.1101/2025.08.29.25334735v2)":
+If you use this code in any way, please refer to it by citing my paper "[Real-world deployment of remote sleep monitoring technologies reveals distinct patterns associated with cognitive decline](https://www.nature.com/articles/s41746-026-02964-0)":
 
 - Bibtex:
 ```
-@techreport{Fletcher-Lloyd,
-	author={Nan Fletcher-Lloyd and Nathalia Céspedes Gómez and Alexander Capstick and Antigone Fogel and Marirena Bafaloukou and Mahan Heydari and Alexandra Cairns and Chloe Walsh and Jessica True and Behnam Shariati and Ramin Nilforooshan and Payam Barnaghi},
-	year={2025},
-	month={Sep 3},
+@article{Fletcher-Lloyd,
+	author={Nan Fletcher-Lloyd and Nathalia Céspedes Gómez and Alexander Capstick and Antigone Fogel and Marirena Bafaloukou and Mahan 		Heydari and Alexandra Cairns and Chloe Walsh and Jessica True and Behnam Shariati and Ramin Nilforooshan and Payam Barnaghi},
+	year={2026},
+	month={Jul 21},
 	title={Real-world deployment of remote sleep monitoring technologies reveals distinct patterns associated with cognitive decline},
-	institution={Cold Spring Harbor Laboratory Press},
-	url={https://www.medrxiv.org/content/10.1101/2025.08.29.25334735},
-	doi={10.1101/2025.08.29.25334735}
+	journal={NPJ digital medicine},
+	isbn={2398-6352},
+	url={https://www.ncbi.nlm.nih.gov/pubmed/42481664},
+	doi={10.1038/s41746-026-02964-0},
+	pmid={42481664}
 }
-
 ```
 
 ## Contact
